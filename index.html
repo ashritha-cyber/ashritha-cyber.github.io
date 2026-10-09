@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ashritha | Cyber Security Learning Log</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#eef2f6;--ink:#14213d;--muted:#51607a;--line:#c9d3e0;--card:#fff;--mark:#f2c94c;--markink:#14213d}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1626;--ink:#e8edf6;--muted:#9fb0cb;--line:#27344d;--card:#17213a}}
+:root[data-theme="dark"]{--bg:#0f1626;--ink:#e8edf6;--muted:#9fb0cb;--line:#27344d;--card:#17213a}
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Source Serif 4",Georgia,serif;font-size:17px;line-height:1.6}
+main{max-width:640px;margin:0 auto;padding:32px 20px 56px}
+h1,h2,h3{font-family:"Bricolage Grotesque","Trebuchet MS",sans-serif;line-height:1.15;margin:0}
+h1{font-size:clamp(44px,13vw,76px);font-weight:800;letter-spacing:-.02em}
+h2{font-size:22px;margin:44px 0 14px;padding-bottom:8px;border-bottom:2px solid var(--ink)}
+h3{font-size:18px}
+.lead{font-size:19px;margin:12px 0 0;max-width:34ch}
+.goal{display:inline-block;margin-top:18px;padding:4px 10px;background:var(--mark);color:var(--markink);font-family:"Bricolage Grotesque",sans-serif;font-weight:600;font-size:15px;border-radius:4px}
+p{margin:0 0 12px}
+.entry{display:grid;grid-template-columns:78px 1fr;gap:14px;padding:16px 0;border-bottom:1px solid var(--line)}
+.when{font-family:"Bricolage Grotesque",sans-serif;font-weight:600;font-size:14px;color:var(--muted);padding-top:3px}
+.entry p{margin:6px 0 0;color:var(--muted);font-size:16px}
+.skills{list-style:none;margin:0;padding:0}
+.skills li{display:flex;justify-content:space-between;gap:12px;align-items:baseline;padding:10px 0;border-bottom:1px solid var(--line)}
+.tag{font-family:"Bricolage Grotesque",sans-serif;font-size:13px;font-weight:600;padding:2px 9px;border:1.5px solid var(--ink);border-radius:20px;white-space:nowrap}
+.tag.now{background:var(--mark);color:var(--markink);border-color:var(--mark)}
+.road,.stats{display:grid;gap:10px}
+.road div,.stats div{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:12px 14px}
+.road p{margin:4px 0 0;color:var(--muted);font-size:15px}
+.stats{grid-template-columns:1fr 1fr}
+.stats b{display:block;font-family:"Bricolage Grotesque",sans-serif;font-size:28px;line-height:1.1}
+.stats span{color:var(--muted);font-size:14px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:0;list-style:none}
+.chips li{padding:5px 12px;border:1.5px solid var(--ink);border-radius:20px;font-family:"Bricolage Grotesque",sans-serif;font-size:14px;font-weight:600}
+footer{margin-top:44px;color:var(--muted);font-size:15px}
+footer p{margin:0 0 6px}
+footer a{color:var(--ink);font-weight:600;text-underline-offset:3px}
+</style>
+</head>
+<body>
+<main>
+<h1>Ashritha</h1>
+<p class="lead">First-year BTech Cyber Security student at B.S. Abdur Rahman Crescent Institute. Learning in public, one note at a time.</p>
+<span class="goal">Goal: Cloud Security Analyst</span>
+
+<h2>About me</h2>
+<p>I'm a first-year Cyber Security student who learns best by doing. I write small C programs, practise on TryHackMe, and document what I learn so I can explain it clearly to others.</p>
+<p>My aim is to work in cloud security, helping companies keep their data safe. I'm also aiming for a strong CGPA in my semester exams, and I plan my days around that goal. When I'm not studying, I'm usually listening to music or watching a movie.</p>
+
+<h2>Education</h2>
+<div class="stats">
+<div><b>98.6%</b><span>Class 12 (986/1000)</span></div>
+<div><b>97.5%</b><span>Class 10 (585/600)</span></div>
+</div>
+
+<h2>Learning log</h2>
+<div class="entry"><div class="when">Oct 2026</div><div><h3>TryHackMe: Offensive Security Intro</h3><p>Used dirb on a practice bank site to find a hidden admin page with no login. Learned that a page with no link is hidden, not protected.</p></div></div>
+<div class="entry"><div class="when">Oct 2026</div><div><h3>C programming: first programs</h3><p>Sum, circle area, km to metres, swap, simple interest, Celsius to Fahrenheit, average, and a calculator with all five operators. Now learning if/else and the ternary operator.</p></div></div>
+<div class="entry"><div class="when">Oct 2026</div><div><h3>Concepts I can explain</h3><p>Pointers store addresses. A buffer overflow writes more data than a memory box holds. A vulnerability is a weakness an attacker can use.</p></div></div>
+
+<h2>Skills</h2>
+<ul class="skills">
+<li>C programming <span class="tag now">learning now</span></li>
+<li>Networking basics (TCP/IP, DNS, HTTP) <span class="tag now">learning now</span></li>
+<li>Linux command line <span class="tag now">learning now</span></li>
+<li>TryHackMe Pre-Security path <span class="tag now">1 room done</span></li>
+<li>Python <span class="tag">planned</span></li>
+<li>AWS free tier: IAM, S3, EC2 <span class="tag">planned</span></li>
+</ul>
+
+<h2>Interests</h2>
+<ul class="chips">
+<li>Music</li>
+<li>Movies</li>
+<li>Cyber security</li>
+<li>Cloud computing</li>
+<li>Problem solving</li>
+<li>Learning new tech</li>
+</ul>
+
+<h2>Languages</h2>
+<ul class="chips"><li>Telugu</li><li>English</li></ul>
+
+<h2>Roadmap</h2>
+<div class="road">
+<div><h3>Year 1</h3><p>C, networking, Linux, security basics, TryHackMe.</p></div>
+<div><h3>Year 2</h3><p>AWS free tier, AWS Cloud Practitioner, Security+.</p></div>
+<div><h3>Year 3 and 4</h3><p>Cloud security specialty, Terraform, projects on GitHub, internships.</p></div>
+</div>
+
+<footer><p>Updated as I learn.</p><p><a href="https://www.linkedin.com/in/vanka-ashritha-raja-rajeswari-13b324427" target="_blank" rel="noopener">Connect with me on LinkedIn</a>. GitHub link coming soon.</p></footer>
+</main>
+</body>
+</html>
